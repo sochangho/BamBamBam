@@ -1,8 +1,8 @@
 # BamBamBam
 
-게임 장르 : 캐주얼 디펜스 게임
-개발 인원 : 2명 (기획 1명),(개발자 1명)
-개발 도구 : C#, Unity3D, Pun2(멀티 플레이), 뒤끝 데이터베이스 
+게임 장르 : 캐주얼 디펜스 게임\n
+개발 인원 : 2명 (기획 1명),(개발자 1명)\n
+개발 도구 : C#, Unity3D, Pun2(멀티 플레이), 뒤끝 데이터베이스\n 
 
 구글 플레이 출시 : 
 https://play.google.com/store/apps/details?id=com.Baeume.BAAAAM&hl=ko
