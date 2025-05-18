@@ -54,8 +54,7 @@ public class VibrationInstallationSkill : PassiveSkill
     public override Skill Copy()
     {
         VibrationInstallationSkill skill = new VibrationInstallationSkill();
-        //skill.damage = damage;
-        //skill.coolTime = coolTime;
+   
         skill.skillName = skillName;
         skill.durationTime = durationTime;
         skill.duraitionType = duraitionType;

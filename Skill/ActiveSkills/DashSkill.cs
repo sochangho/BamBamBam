@@ -36,7 +36,7 @@ public class DashSkill : ActiveSkill
 
         if (GameSceneManager.Instance.IsMine(snakePartSkill.pv))
         {
-           // snakePartSkill.AddAbilitySkills("DashSpeedAbility");
+          
 
             if (abilitySkill == null)
             {
@@ -53,12 +53,10 @@ public class DashSkill : ActiveSkill
 
            float percent = StatsManager.GetUpgraded(SnakeUniqueAbilityType.Dash,(int)UpgradeDashStats.Stats.Dash_Attack_Speed,snakeHead);
 
-           BamDebug.Log($"<color=red> ½ºÇÇµå : {percent} </color>");
-
+         
            abilitySkill.value =  dashValue.OrigineValue * (1 + percent / 100);
            
            
-
            snakePartSkill.AddAbilitySkillAndStart(abilitySkill);           
         }
 
@@ -80,9 +78,8 @@ public class DashSkill : ActiveSkill
     public override Skill Copy()
     {
         DashSkill skill = new DashSkill();
-        //skill.damage = damage;
+      
         skill.id = id;
-        //skill.coolTime = coolTime;
         skill.skillName = skillName;
         skill.resorceId = resorceId;
         skill.objectType = objectType;

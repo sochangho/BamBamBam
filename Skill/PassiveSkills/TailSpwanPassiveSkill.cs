@@ -25,8 +25,7 @@ public class TailSpwanPassiveSkill : SpwanPassiveSkill
     public override Skill Copy()
     {
         TailSpwanPassiveSkill skill = new TailSpwanPassiveSkill();
-        //skill.damage = damage;
-        //skill.coolTime = coolTime;       
+        
         skill.skillName = skillName;
         skill.durationTime = durationTime;
         skill.duraitionType = duraitionType;
@@ -82,7 +81,6 @@ public class TailSpwanPassiveSkill : SpwanPassiveSkill
 
         GameSceneManager.Instance.MineHead().ability.abilityData.speed.Apply(statSpeed);
 
-        ///////////////////////
         float valuedefense
           = GameSceneManager.Instance.MineHead().ability.abilityData.defence.OrigineValue * 0.005f * (body - 1);
 

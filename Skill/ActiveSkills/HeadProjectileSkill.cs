@@ -22,9 +22,7 @@ public class HeadProjectileSkill : SpwanActiveSkill
     public override Skill Copy()
     {
         HeadProjectileSkill skill = new HeadProjectileSkill();
-        //skill.damage = damage;
-        
-        //skill.coolTime = coolTime;
+
         skill.skillName = skillName;
         skill.objectType = objectType;
         skill.id = id;
