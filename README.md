@@ -15,6 +15,4 @@ https://www.youtube.com/watch?v=aSol9cZ6VXI
 프로젝트 pdf :
 [BamBamBam_포트폴리오.pdf](https://github.com/user-attachments/files/20272283/BamBamBam_.pdf)
 
-클래스다이어그램 및 설명 :
-[Skill(공격).pdf](https://github.com/user-attachments/files/20271501/Skill.pdf)
-[SpecialEffect.pdf](https://github.com/user-attachments/files/20271508/SpecialEffect.pdf)
+
